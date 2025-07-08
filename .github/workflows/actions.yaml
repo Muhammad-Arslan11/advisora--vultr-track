@@ -7,11 +7,11 @@ on:
       - main
 
 jobs:
-  notify:
-  test:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      
       - name: Notify pipline trigger
         run: echo "pipline is triggered"
+
    

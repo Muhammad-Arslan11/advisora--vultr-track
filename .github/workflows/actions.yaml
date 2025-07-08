@@ -1,0 +1,17 @@
+name : Advisora Deployment
+
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - name: Notify pipline trigger
+        run: echo "pipline is triggered"
+   
